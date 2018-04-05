@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css?family=Play');
+
+.loader{
+    background: url(ajax-loader.gif) no-repeat;
+    width: 70px;
+    height: 70px;
+}
+
+body{
+    background: lightgray;
+    color: #4e4545;
+    font-family: Play;
+    min-height: 1350px;
+    padding: 70px;
+}
+h1{
+    font-size: 27px;
+    text-align: center;
+    margin-top: 0;
+}
+h2{
+    margin: 0;
+    font-size: 20px;
+    color: #1C3144; /* 1C3144 */
+}
+h3{
+    font-size: 16px;
+    margin: 10px 0;
+    text-align: center;
+}
+h4{
+    font-size: 15px;
+    padding: 3px;
+    margin: 0 0 10px;
+    text-align: center;
+    font-weight: bold;
+    background: #276298;
+    color: #FFF;
+    padding-bottom: 7px;
+}
+h5{
+    font-size: 15px;
+    font-weight: bold;
+}
+hr{
+    margin: 0;
+    border-color: #1C3144;
+}
+.page-header{
+    margin: 10px 0 20px;
+}
+.box-content{
+    background: #FFF;
+    -webkit-box-shadow: 1px 1px 15px 0px rgba(115,108,115,1);
+    -moz-box-shadow: 1px 1px 15px 0px rgba(115,108,115,1);
+    box-shadow: 1px 1px 15px 0px rgba(115,108,115,1);
+    padding: 10px;
+    margin-bottom: 10px 0;
+}
+/*************************************************************************************/
+/*** NAVBAR ***/
+.navbar{
+    border-radius: 0;
+    border: 0;
+}
+.navbar .navbar-nav{
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+}
+.navbar-inverse{
+    background: #1C3144;
+}
+.navbar-nav>li>a{
+    font-size: 16px;
+}
+.navbar .navbar-brand span{
+    font-size: 20px;
+    background: #FFF;
+    padding: 3px 7px;
+    border-radius: 5px;
+    color: #000;
+}
+/* form recherche */
+#index_search{
+    width: 450px;
+}
+/* modal connexion/inscription */
+/*.modal-header{
+    padding: 15px;
+}*/
+.modal-title{
+    background: #FFF;
+    color: #000;
+    font-size: 20px;
+}
+/*************************************************************************************/
+/*** INDEX ***/
+#section_login{
+    margin-bottom: 5px;
+}
+#index_login{
+    
+}
+#index_nb_annonces,#index_titre_carte{
+    font-size: 15px;
+    font-weight: bold;
+}
+#index_marque{
+    font-size: 15px;
+    font-weight: bold;
+}
+#index_btn_publier{
+    color: yellow;
+}
+#index_encart_pub{
+    margin: 0 auto;
+    padding: 80px 0 20px;
+}
+
+/*************************************************************************************/
+/*** MENU ADMIN ***/
+#content-admin{
+    margin-bottom: 20px;
+}
+ul#menu_admin {
+    list-style: none;
+    /*padding: 10px 0;*/
+}
+
+ul#menu_admin li a{
+    display: block;
+    float: left;
+    border: #276298;
+    width: 16.66%;
+    text-align: center;
+    color:#FFF;
+    font-size: 14px;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 2px 0;
+}
+ul#menu_admin li a:hover{
+    font-style: italic;
+    text-decoration: none;
+    color: lightslategray;
+}
+/*** HOME ***/
+.home_bloc_filtre{
+    margin-bottom: 25px;
+}
+.home_css_select,#rangeValue{
+    width: 250px;
+    /*background: #000;*/
+}
+#home_filtre_prix{
+    margin: 5px;
+    width: 330px;
+}
+
+/* potentiometre prix */
+input[type='range'] {
+    -webkit-appearance: none;
+    border-radius: 5px;
+    box-shadow: inset 0 0 5px #333;
+    background-color: #999;
+    height: 10px;
+    vertical-align: middle;
+   }
+   input[type='range']::-moz-range-track {
+     -moz-appearance: none;
+     border-radius: 5px;
+     box-shadow: inset 0 0 5px #333;
+     background-color: #999;
+     height: 10px;
+   }
+   input[type='range']::-webkit-slider-thumb {
+     -webkit-appearance: none !important;
+     border-radius: 20px;
+     background-color: #FFF;
+     box-shadow:inset 0 0 10px rgba(000,000,000,0.5);
+     border: 1px solid #999;
+     height: 20px;
+     width: 20px;
+   }
+   input[type='range']::-moz-range-thumb {
+     -moz-appearance: none;
+     border-radius: 20px;
+     background-color: #FFF;
+     box-shadow:inset 0 0 10px rgba(000,000,000,0.5);
+     border: 1px solid #999;
+     height: 20px;
+     width: 20px;
+   }
+
+/*************************************************************************************/
+/*** PROFIL ***/
+#sect_profil_infos{
+    margin-bottom: 30px;
+}
+
+
+
+
+/*** FOOTER ***/
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #1C3144;
+    color: white;
+    text-align: center;
+ }
